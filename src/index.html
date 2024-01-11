@@ -5,83 +5,69 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="logonobg.png">
-    <title>Foldes Law Office</title>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+
     <link rel="preload" as="font" href="./fonts/Roboto/static/Roboto-Regular.ttf" crossorigin="anonymous">
     <link rel="preload" as="font" href="./fonts/Galliard-Std-Roman/Galliard-Std-Roman.woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="./fonts/Times/TIMESR.ttf" crossorigin="anonymous">
     <style>
-
-      /* body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      } */
-      #mainTitle{
-          line-height: 2rem !important;
-      }
       
       .parallaxxx {
-        /* Set a specific height */
         min-height: 50px;
         max-height: 100px;
-
-      
-        /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
       }
 
+      /* body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } */
 
-      .pic1{
-        background-image: url('officeInside.jpg');
-      }
-
-      .pic2{
-        background-image: url('building.jpg');
-      }
-      .pic3{
-        background-image: url('random4Snip.jpg');
-      }
-      .building1{
-        background-image: url('building1.jpg');
-      }
-      .building2{
-        background-image: url('building2.jpg');
-      }
-      .building3{
-        background-image: url('building3.jpg');
-      }
-      .para3{
-        background-image: url('para3.jpg');
-      }
-      @media screen and (max-width: 600px) {
-        .parallaxxx {
-        /* Set a specific height */
-        min-height: 25px;
-        max-height: 50px;
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      }
-
-      /* Removes weird right margin */
-      .row { 
+      /* .row { 
         margin-left: 0 !important;
         margin-right: 0 !important;
       }
       .vc_row {
           margin-left: 0 !important;
           margin-right: 0 !important;
-      }
+      } */
+
+      #mainTitle{
+    margin-top: 0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    -webkit-margin-top: 0%;
+    -webkit-margin-bottom: 0%;
+    -webkit-padding-top: 0%;
+    -webkit-padding-bottom: 0%;
+    -moz-margin-top: 0;
+    -moz-margin-bottom: 0;
+    -moz-padding-top: 0;
+    -moz-padding-bottom: 0;
+}
+
+#subTitle{
+    margin-top: 0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    -webkit-margin-top: 0%;
+    -webkit-margin-bottom: 0%;
+    -webkit-padding-top: 0%;
+    -webkit-padding-bottom: 0%;
+    -moz-margin-top: 0;
+    -moz-margin-bottom: 0;
+    -moz-padding-top: 0;
+    -moz-padding-bottom: 0;
+}
 
       @font-face {
           font-family: "RobotoSlab";
