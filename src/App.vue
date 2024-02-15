@@ -51,8 +51,8 @@ export default {
       return {
         contactMethods: [
           {name: "address", href: '', target: '', meta: ["4025 Debrecen 43 Piac street", "4025 Debrecen Piac utca 43"], icon: "map-marker-outline", customClass: '', color: '#F4E8D2', class4Banner: '', align: '', contactStyle: 'd-md-flex'},
-          {name: "phone", href: 'tel:+52342821', target: '_blank', meta: ["+52 342 821", "+52 342 821"], icon: 'phone-outline', customClass: 'custom-border button', color: '#BEAF67', class4Banner: 'mr-3 mr-md-10 mr-lg-15 px-0', align: 'custom-border button mx-md-15', contactStyle: 'd-flex custom-border button ml-0 mr-15'},
-          {name: "email", href: 'mailto:foldest@t-online.hu', target: '_blank', meta: ["foldest@t-online.hu", "foldest@t-online.hu"], icon: "email-outline", customClass: '', color: '#F4E8D2', class4Banner: 'mx-0 px-0', align: '', contactStyle: 'd-md-flex'},
+          {name: "phone", href: 'tel:+52342821', target: '_blank', meta: ["+52 342 821", "+52 342 821"], icon: 'phone-outline', customClass: 'custom-border button', color: '#BEAF67', class4Banner: 'mr-3 mr-md-10 mr-lg-15 px-0', align: 'custom-border button mx-md-15', contactStyle: 'd-flex custom-border button mr-md-15'},
+          {name: "email", href: 'mailto:iroda@foldeslegal.hu', target: '_blank', meta: ["iroda@foldeslegal.hu", "iroda@foldeslegal.hu"], icon: "email-outline", customClass: '', color: '#F4E8D2', class4Banner: 'mx-0 px-0', align: '', contactStyle: 'd-md-flex'},
         ],
         dynamicSubtitle : ['Law Office','Ügyvédi Iroda'],
         dynamicAddress : ['5 Piac street 4024 Debrecen', '4024 Debrecen Piac utca 5'],

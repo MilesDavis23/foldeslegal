@@ -17,8 +17,19 @@ Vue.use(VueScrollTo, {
   easing: 'ease-in-out'
 });
 
+
 new Vue({
   el: '#app',
   vuetify,
   render: h => h(App)
 }).$mount('#app')
+
+
+/*
+// New Instance:
+new Vue({
+  router, 
+  vuetify,
+  render: h => h(App),
+}).$mount('#app')
+*/

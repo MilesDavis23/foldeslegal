@@ -24,7 +24,7 @@
               <AddGoogleMap ref="gmap" />
           </v-card>
       </v-container>
-      <ContactDetails :englishOn="englishOn" :dynamicWidth="dynamicWidth" :contact="contactMethods" :copyIcon="copyIcon" @childAlert="$emit('childAlert',$event)" @childCall="$emit('childCall', 'tel:+52554442')"/>
+        <ContactDetails :englishOn="englishOn" :dynamicWidth="dynamicWidth" :contact="contactMethods" :copyIcon="copyIcon" @childAlert="$emit('childAlert',$event)" @childCall="$emit('childCall', 'tel:+52554442')"/>
     </v-container>
   </div>
 
